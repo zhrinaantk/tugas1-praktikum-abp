@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* FONT UTAMA */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* LOGO FONT */
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size:26px;
+    color:#ffd6e7;
+}
+
+
+
+
+/* NAVBAR */
+
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    background:#8b5e5e;
+}
+
+
+.menu{
+    list-style:none;
+    display:flex;
+}
+
+
+.menu li{
+    margin-left:25px;
+}
+
+
+.menu a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+}
+
+
+.menu a:hover{
+    color:#ffc0d6;
+}
+
+
+
+
+/* HERO */
+
+
+.hero{
+    height:80vh;
+
+
+    background:
+    linear-gradient(rgba(255,240,245,0.7), rgba(255,240,245,0.7)),
+    url("images/background.jpg");
+
+
+    background-size:cover;
+    background-position:center;
+
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+
+.hero h1{
+    font-family: 'Pacifico', cursive;
+    font-size:48px;
+    color:#7a4b4b;
+    margin-bottom:15px;
+}
+
+
+.hero p{
+    font-size:18px;
+    color:#6b4c4c;
+}
+
+
+
+
+/* BUTTON */
+
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#ffb6c1;
+    color:#5a3d3d;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:600;
+}
+
+
+.btn:hover{
+    background:#ff9fb2;
+}
+
+
+
+
+/* MENU */
+
+
+.services{
+    padding:70px;
+    text-align:center;
+    background:#ffe4ec;
+}
+
+
+.services h2{
+    font-family: 'Pacifico', cursive;
+    color:#7a4b4b;
+    font-size:32px;
+}
+
+
+.service-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:40px;
+}
+
+
+
+
+/* CARD */
+
+
+.card{
+    background:white;
+    padding:20px;
+    width:260px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+
+.card h3{
+    color:#8b5e5e;
+    margin-bottom:10px;
+}
+
+
+.card p{
+    color:#6b4c4c;
+}
+
+
+
+
+/* FOOTER */
+
+
+footer{
+    background:#8b5e5e;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
